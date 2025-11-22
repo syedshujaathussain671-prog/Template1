@@ -1,0 +1,259 @@
+/* CSS File */
+
+/* Header Section CSS Start */
+
+html
+{
+	scroll-behavior:smooth;
+}
+
+header
+{
+	background:#ffafb8;
+}
+
+header ul
+{
+		margin:0px;
+		padding:0px;
+}
+header li
+{
+	display:inline-block;
+	line-height:50px;
+}
+
+header a
+{
+		color:white;
+		font-size:22px;
+		text-decoration:none;
+		font-family:century gothic;
+		position:relative;
+		top:5px;
+		padding-right:5px;
+	
+}
+
+.btn1
+{
+		background:black;
+		color:white;
+		height:28px;
+		position:relative;
+		top:5px;
+		
+}
+.input
+{
+		position:relative;
+		top:5px;
+		left:20px;
+		height:38px;
+		width:200px;
+		padding:5px;
+		border-radius:6px;
+		margin-left:10px;		
+}
+.one
+{
+    
+	position:relative;
+	top:8px;
+		
+}
+/* banner section css start */
+.banner-section
+{
+	background:url('../images/bg.jpg');
+	height:550px;
+	background-size:cover;
+}
+
+/* About Section CSS Start  */
+h1
+{
+	font-family:calibri;
+	text-align:center;
+}
+.about p
+{
+	font-size:30px;
+	text-align:justify;
+	line-height:50px;
+	font-family:Gabriola;
+	color:#94225d;
+}
+
+/* Learning Plateform CSS Start */
+
+.learning div
+{
+		text-align:center;
+		width:28%;
+		display:inline-block;
+		margin:5px;
+		padding:8px;		
+}
+.learning img
+{
+	height:52%;
+	width:100%;
+}
+.learning p
+{
+		font-family:calibri;
+		text-align:justify;
+		font-size:20px;
+}
+.learning img:hover
+{
+	opacity:0.4;
+	cursor:crosshair;
+	transform:scale(1.2,1.2);
+	transition:ease-in-out 2s;
+}
+/* Technology Section CSS Start */
+.row div
+{
+	width:22%;
+	display:inline-block;
+	text-align:center;
+	padding:5px;
+
+}
+.row img
+{
+	width:70%;
+	height:32%;
+}
+/* Service Section CSS Start */
+.service-section div
+{
+	 width:18%;
+     display:inline-block;
+	 margin:5px;
+	 padding:20px;
+	 background:#ffafb8;
+	 
+}
+.service-section div:hover
+{
+	background:#fff;
+}
+.service-section div p
+{
+	font-family:Century Gothic;
+}
+.social a
+{
+	font-size:40px;
+	color:black;
+}
+
+/* Contact Section CSS Start */
+.contact-section 
+{
+    
+	width:100%;
+	display:flex;
+	padding-top:20px;
+	
+}
+.cont1
+{
+     margin:5px;
+	 text-align:center;	
+     background:black;  
+	 color:white;
+	 font-size:25px;
+	 font-family:calibri;
+	 margin-top:0px;
+	 width:60%;
+}
+.cont2
+{
+     
+	 text-align:center;	
+     background:black;  
+	 color:white;
+	 font-size:25px;
+	 font-family:calibri;
+	 width: 40%;
+}
+.cont2 img
+{
+	height:230px;
+	width:100%;
+}
+
+.cont1 input
+{
+		
+		height:40px;
+		width:450px;
+	    margin:2px;
+	    padding-top:12px;
+}
+#sub
+{
+		background:#ffafb8;
+		font-weight:bold;
+		font-size:18px;
+		font-family:calibri;
+		
+}
+.footer-section
+{
+		background:black;
+		color:white;
+				
+}
+.footer-section p
+{
+    font-size:25px;	
+	font-family:monotype corsiva;
+	color:#ffafb8;
+}
+.footer-section div
+{
+	width:30%;
+	display:inline-block;
+}
+.footer-section h1,h2, h3
+{
+	font-family:calibri;
+}	
+
+#foot
+{
+	padding-left:20px;
+}
+
+
+
+.social ul li
+{
+	display:inline-block;
+	padding:8px;
+	text-align:center;
+}
+
+.plateform ul li 
+{
+    padding:2px;
+	font-size:20px;
+}
+.support ul li 
+{
+    padding:2px;
+	font-size:20px;
+}
+
+
+.footer-section ul li a
+{
+	font-size:25px;
+	color:white;
+}
+
